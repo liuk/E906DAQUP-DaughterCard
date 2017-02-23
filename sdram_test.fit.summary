@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Jan 11 13:33:06 2017
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
+Revision Name : sdram_test
+Top-level Entity Name : system_module
+Family : Cyclone III
+Device : EP3C40F484C8
+Timing Models : Final
+Total logic elements : 532 / 39,600 ( 1 % )
+    Total combinational functions : 531 / 39,600 ( 1 % )
+    Dedicated logic registers : 318 / 39,600 ( < 1 % )
+Total registers : 318
+Total pins : 73 / 332 ( 22 % )
+Total virtual pins : 0
+Total memory bits : 8,192 / 1,161,216 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 252 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

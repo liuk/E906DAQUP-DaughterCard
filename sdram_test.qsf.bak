@@ -1,0 +1,115 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2011 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+# Date created = 10:43:13  September 01, 2016
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		sdram_test_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C40F484C8
+set_global_assignment -name TOP_LEVEL_ENTITY system_module
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "11.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:43:13  SEPTEMBER 01, 2016"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.1
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_location_assignment PIN_B11 -to clk
+set_location_assignment PIN_J3 -to led1
+set_location_assignment PIN_L8 -to conn_f_in[15]
+set_location_assignment PIN_K7 -to conn_f_in[14]
+set_location_assignment PIN_J6 -to conn_f_in[13]
+set_location_assignment PIN_J1 -to conn_f_in[12]
+set_location_assignment PIN_H1 -to conn_f_in[11]
+set_location_assignment PIN_G3 -to conn_f_in[10]
+set_location_assignment PIN_F1 -to conn_f_in[9]
+set_location_assignment PIN_E1 -to conn_f_in[8]
+set_location_assignment PIN_D2 -to conn_f_in[7]
+set_location_assignment PIN_C1 -to conn_f_in[6]
+set_location_assignment PIN_B1 -to conn_f_in[5]
+set_location_assignment PIN_E5 -to conn_f_in[4]
+set_location_assignment PIN_F7 -to conn_f_in[3]
+set_location_assignment PIN_C7 -to conn_f_in[2]
+set_location_assignment PIN_F8 -to conn_f_in[1]
+set_location_assignment PIN_D10 -to conn_f_in[0]
+set_location_assignment PIN_K8 -to conn_f_out[15]
+set_location_assignment PIN_J7 -to conn_f_out[14]
+set_location_assignment PIN_H6 -to conn_f_out[13]
+set_location_assignment PIN_J2 -to conn_f_out[12]
+set_location_assignment PIN_H2 -to conn_f_out[11]
+set_location_assignment PIN_G4 -to conn_f_out[10]
+set_location_assignment PIN_F2 -to conn_f_out[9]
+set_location_assignment PIN_E3 -to conn_f_out[8]
+set_location_assignment PIN_E4 -to conn_f_out[7]
+set_location_assignment PIN_C2 -to conn_f_out[6]
+set_location_assignment PIN_B2 -to conn_f_out[5]
+set_location_assignment PIN_E6 -to conn_f_out[4]
+set_location_assignment PIN_G7 -to conn_f_out[3]
+set_location_assignment PIN_C8 -to conn_f_out[2]
+set_location_assignment PIN_G8 -to conn_f_out[1]
+set_location_assignment PIN_E10 -to conn_f_out[0]
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name MISC_FILE "D:/WorkSpace/FermiLab/FPGA/SDRAM-v05-05/sdram_test.dpf"
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CYCLONEIII_CONFIGURATION_DEVICE EPCS16
+set_global_assignment -name FORCE_CONFIGURATION_VCCIO ON
+set_global_assignment -name MISC_FILE "D:/WorkSpace/FermiLab/FPGA/DauughterCardRWtest-1/sdram_test.dpf"
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
+set_global_assignment -name TIMEQUEST_DO_CCPP_REMOVAL ON
+set_location_assignment PIN_C6 -to rw_cmd
+set_global_assignment -name MISC_FILE "D:/WorkSpace/FermiLab/FPGA/DauughterCardRWtest-1-1/sdram_test.dpf"
+set_global_assignment -name VERILOG_FILE rfifo.v
+set_global_assignment -name VERILOG_FILE src/sdram/sdr_para.v
+set_global_assignment -name VERILOG_FILE src/sdram/sdram_cmd.v
+set_global_assignment -name VERILOG_FILE src/sdram/sdram_ctrl.v
+set_global_assignment -name VERILOG_FILE src/sdram/sdram_top.v
+set_global_assignment -name VERILOG_FILE src/sdram/sdram_wr_data.v
+set_global_assignment -name VERILOG_FILE pll.v
+set_global_assignment -name VERILOG_FILE src/pll/sys_ctrl.v
+set_global_assignment -name VERILOG_FILE src/cache/cache_ctrl.v
+set_global_assignment -name VERILOG_FILE src/system/system_module.v
+set_global_assignment -name QIP_FILE wfifo.qip
+set_global_assignment -name MISC_FILE "D:/WorkSpace/FermiLab/FPGA/DauughterCardRWtest-1-2/sdram_test.dpf"
+set_global_assignment -name MISC_FILE "D:/WorkSpace/FermiLab/FPGA/DaughterCardRWtest-1-2/sdram_test.dpf"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

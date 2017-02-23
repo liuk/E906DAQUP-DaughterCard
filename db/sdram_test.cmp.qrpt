@@ -1,0 +1,12 @@
+[||Compilation Report||Analysis & Synthesis||Connectivity Checks||Port Connectivity Checks: "cache_ctrl:uut_cache|wfifo:uut_wrfifo"]
+COLUMN_WIDTHS=84L,38L,52L,393L,
+OUTPUT_SECTION=1
+PAGE_ORIENTATION=0
+[||Compilation Report||Analysis & Synthesis||Connectivity Checks||Port Connectivity Checks: "sys_ctrl:uut_sysctrl|pll:uut_PLL_ctrl"]
+COLUMN_WIDTHS=69L,64L,52L,493L,
+OUTPUT_SECTION=1
+PAGE_ORIENTATION=0
+[||Compilation Report||Fitter||I/O Assignment Warnings]
+COLUMN_WIDTHS=178L,173L,
+OUTPUT_SECTION=1
+PAGE_ORIENTATION=0

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="sdram_test">
+		<CBX_INST_ENTRY INSTANCE_NAME="|system_module|cache_ctrl:uut_cache|rfifo:uut_rfifo|scfifo:scfifo_component" CBX_FILE_NAME="scfifo_uv21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|system_module|cache_ctrl:uut_cache|wfifo:uut_wrfifo|scfifo:scfifo_component" CBX_FILE_NAME="scfifo_s231.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|system_module|sys_ctrl:uut_sysctrl|pll:uut_PLL_ctrl|altpll:altpll_component" CBX_FILE_NAME="pll_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>
